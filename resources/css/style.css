@@ -155,6 +155,7 @@ body{
         font-family: roboto;
         height: 32em;
         border: solid 1px black;
+        margin: 10px 0 0 10px;
      }
      td{
          padding: 0 10px 0 10px;
@@ -190,7 +191,8 @@ body{
          left: 50%;
          transform: translateX(-50%);
          background-color: #333333;
-         margin-top: 10px;
+         margin-top: 30px;
+         margin-bottom: 100px;
      }
      /* footers */
     .footer{
@@ -212,15 +214,6 @@ body{
         text-align: center;
         padding-top: 10px;
         font-family: roboto;
-    }
-    .footerMedia{
-        width: 100%;
-        height: 50px;
-        background-color: black;
-        color: white;
-        text-align: center;
-        font-family: roboto;
-        padding-top: 10px;
     }
 }
 @media (max-width:599px){
@@ -396,6 +389,7 @@ body{
         font-family: roboto;
         font-size: 14px;
         border: solid 1px #5e5c5c;
+        margin: 30px 0 10px 0;
      }
      td{
          padding: 0 10px 0 10px;
@@ -407,32 +401,33 @@ body{
     tr:nth-child(even){
        background-color: #5e5c5c;
        color: white;
-   }
+    }
      /* media.html */
-     img{
-         position: relative;
-         left: 50%;
-         transform: translateX(-50%);
-         width: 20em;
-         height: 22em;
-         box-shadow: 5px 5px 5px #333333 ;
-         margin-top: 10px;
-     }
-     video{
-         position: relative;
-         left: 50%;
-         transform: translateX(-50%);
-         height: 300px;
-         width: 300px;
-         margin-top: 10px;
-     }
-     audio{
-         position: relative;
-         left: 50%;
-         transform: translateX(-50%);
-         background-color: #333333;
-         margin-top: 10px;
-     }
+    img{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20em;
+        height: 22em;
+        box-shadow: 5px 5px 5px #333333 ;
+        margin-top: 10px;
+    }
+    video{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 300px;
+        width: 300px;
+        margin-top: 10px;
+    }
+    audio{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #333333;
+        margin-top: 25px;
+        margin-bottom: 100px;
+    }
      /* footer */
     .footer{
         width: 100%;
@@ -445,17 +440,6 @@ body{
         padding-top: 15px;
     }
     .footerTable{
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        height: 50px;
-        background-color: black;
-        color: white;
-        font-family: roboto;
-        text-align: center;
-        padding-top: 10px;
-    }
-    .footerMedia{
         position: fixed;
         bottom: 0;
         width: 100%;
