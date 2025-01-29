@@ -1,0 +1,170 @@
+*,*::backdrop, *::after{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+::selection{
+    background-color: #333333;
+    color: white;
+}
+@font-face{
+    font-family: roboto;
+    src: url(/resources/fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: sourceSerifPro-Bold;
+    src: url(/resources/fonts/SourceSerifPro-Bold.ttf);
+}
+
+@media screen and (min-width:551px) {
+    nav{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 50px;
+        background-color: black;
+    }
+    .logo>img{
+        width: 2.5em;
+        height: 2.5em;
+        margin-left: 1em;
+        margin-top: 5px;
+        border-radius: 90%;
+    }
+    nav>.flex{
+        display: flex;
+        flex-direction: row;
+    }
+    nav>div>a{
+        display: block;
+        width: 5em;
+        height: 2em;
+        margin: 9px;
+        padding-top:0.5em;
+        background-color: #333333;
+        text-align: center;
+        text-decoration: none;
+        font-family: sourceSerifPro-Bold;
+        color: white;
+        border-radius: 10%;
+        
+    }
+    nav>div>a:hover{
+        color: #333333;
+        background-color: white;
+       
+    }  
+    img{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 30em;
+        height: 30em;
+        box-shadow: 5px 5px 5px #333333 ;
+        margin-top: 10px;
+    }
+    video{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 500px;
+        width: 500px;
+        margin-top: 10px;
+    }
+    audio{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #333333;
+        margin-top: 10px;
+    }
+    .footerMedia{
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        font-family: roboto;
+    }
+}
+@media (max-width: 550px) {
+    nav{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 50px;
+        background-color: black;
+    }
+    .logo>img{
+        width: 2.5em;
+        height: 2.5em;
+        margin-left: 1em;
+        margin-top: 5px;
+        border-radius: 90%;
+    }
+    nav>.flex{
+        display: flex;
+        flex-direction: row;
+    }
+    nav>div>a{
+        display: block;
+        width: 5em;
+        height: 2em;
+        margin: 9px;
+        padding-top:0.5em;
+        background-color: #333333;
+        text-align: center;
+        text-decoration: none;
+        font-family: sourceSerifPro-Bold;
+        color: white;
+        border-radius: 10%;
+        
+    }
+    nav>div>a:hover{
+        color: #333333;
+        background-color: white;
+       
+    }
+    img{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20em;
+        height: 22em;
+        box-shadow: 5px 5px 5px #333333 ;
+        margin-top: 10px;
+    }
+    video{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 300px;
+        width: 300px;
+        margin-top: 10px;
+    }
+    audio{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #333333;
+        margin-top: 10px;
+    }
+    .footerMedia{
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        color: white;
+        font-family: roboto;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
