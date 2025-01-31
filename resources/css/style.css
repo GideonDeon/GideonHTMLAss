@@ -185,6 +185,8 @@ body{
          height: 500px;
          width: 500px;
          margin-top: 10px;
+         border: solid 5px #333333;
+         border-radius: 5px;
      }
      audio{
          position: relative;
@@ -193,6 +195,8 @@ body{
          background-color: #333333;
          margin-top: 30px;
          margin-bottom: 100px;
+         border: solid 5px #333333;
+         border-radius: 5px;
      }
      /* footers */
     .footer{
@@ -419,6 +423,8 @@ body{
         height: 300px;
         width: 300px;
         margin-top: 10px;
+        border: solid 5px #333333;
+        border-radius: 5px;
     }
     audio{
         position: relative;
@@ -427,6 +433,8 @@ body{
         background-color: #333333;
         margin-top: 25px;
         margin-bottom: 100px;
+        border: solid 5px #333333;
+        border-radius: 5px;
     }
      /* footer */
     .footer{
